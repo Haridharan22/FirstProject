@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-
+//normal useeffect use pannum pothu there are 9 lines
 export const SuperHeroespage = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [data, setData] = useState([])
