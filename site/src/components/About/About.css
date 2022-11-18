@@ -1,0 +1,20 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    background: linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+    text-align: left;
+}
+#about p{
+    color: #fff;
+    text-align: left;
+}

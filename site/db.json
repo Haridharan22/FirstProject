@@ -1,0 +1,33 @@
+{
+    "superheroes":[
+        {
+            "id": 1,
+            "name": "Hari",
+            "alterEgo": "Haridharan"
+        },
+        {
+            "id": 2,
+            "name": "Prem",
+            "alterEgo": "Premkumar"
+        },
+        {
+            "id": 3,
+            "name": "Bala",
+            "alterEgo": "Balaveran"
+        }
+    ],
+    "friends":[
+        {
+            "id":  1,
+            "name": "surya"
+        },
+        {
+            "id":  2,
+            "name": "elam"
+        },
+        {
+            "id":  3,
+            "name": "shan"
+        }
+    ]
+}
