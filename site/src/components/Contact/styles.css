@@ -1,0 +1,29 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin{
+    background: #29f700 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+#contact img{
+    height: 100%;
+}  
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+} 
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}

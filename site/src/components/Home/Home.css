@@ -1,0 +1,40 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4));
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                0px 2px 0px #ccc,
+                0px 3px 0px #ccc,
+                0px 4px 0px #ccc,
+                0px 5px 0px #ccc,
+                0px 6px 0px #ccc;
+
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+    
+}
+.signin{
+    background: #29f700 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
