@@ -1,0 +1,25 @@
+{
+  "emp_details": [
+    {
+      "id": 1,
+      "Name": "Hari",
+      "Qualification": "MCA",
+      "Exceptedsalary": 20000,
+      "Phonenumber": 8122530754
+    },
+    {
+      "id": 2,
+      "Name": "Prem",
+      "Qualification": "Diploma",
+      "Exceptedsalary": 25000,
+      "Phonenumber": 9751147335
+    },
+    {
+      "id": 3,
+      "Name": "Ragu",
+      "Qualification": "BCA",
+      "Exceptedsalary": 35000,
+      "Phonenumber": 8908030754
+    }
+  ]
+}

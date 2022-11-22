@@ -1,0 +1,28 @@
+{
+    "employeedetails":[
+        {
+            "id": 1,
+            "Name": "Hari",
+            "Exceptedsalary": 20000,
+            "Qualification": "MCA",
+            "Experience": 2,
+            "Phonenumber": 8122530754
+        },
+        {
+            "id": 2,
+            "Name": "Prem",
+            "Exceptedsalary": 20000,
+            "Qualification": "DCE",
+            "Experience": 3,
+            "Phonenumber": 9876543210
+        },
+        {
+            "id": 3,
+            "Name": "Ragu",
+            "Exceptedsalary": 25000,
+            "Qualification": "Civil",
+            "Experience": 5,
+            "Phonenumber": 9785463210
+        }
+    ]
+}
