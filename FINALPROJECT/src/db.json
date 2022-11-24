@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "Name": "Ragu",
+            "name": "Ragu",
             "Exceptedsalary": 25000,
             "Qualification": "Civil",
             "Experience": 5,
