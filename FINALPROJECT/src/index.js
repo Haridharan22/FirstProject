@@ -6,24 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
-
 import { Provider } from 'react-redux';
-import { legacy_createStore as  createStore } from 'redux';
-import EmpReducer from './redux/reducers/EmpReducer';
-import { composeWithDevTools } from 'redux-devtools-extension';
-
+import store from './redux/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const store= createStore(EmpReducer, composeWithDevTools());
 
 root.render(
- 
-  <Provider store={store}>
+    <Provider store={store}>
      <BrowserRouter>
     <App />
+     </BrowserRouter>
+     </Provider>
   
-    </BrowserRouter>
-  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

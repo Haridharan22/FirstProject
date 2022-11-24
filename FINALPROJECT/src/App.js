@@ -3,12 +3,9 @@ import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Navbar from './components/Navbar';
 import {Routes, Route} from 'react-router-dom';
-import Home from './components/Home';
-import AddData from './components/AddData';
-import AlterData from './components/AlterData';
-
-
-
+import CategoryContact from './views/CategoryContact';
+import DetailContact from './views/DetailContact';
+import ContactAll from './views/ContactAll';
 
 function App() {
   return (
@@ -16,14 +13,10 @@ function App() {
       <ToastContainer/>
       <Navbar/>
       <Routes>
-        <Route exact path="/" element={<Home/>}>
-        
-        </Route>
-        <Route path="/add" element={<AddData/>}>
-        </Route>
-        <Route path="/edit/:id" element={<AlterData/>}>
-        </Route>
-      </Routes>
+      <Route exact path="/" element={<ContactAll/>} />
+      <Route exact path="/:category" element={<CategoryContact/>}/>
+      <Route exact path="/detail/:id" element={<DetailContact/>}/>
+    </Routes>
       
     </div>
   );
